@@ -11,11 +11,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 keyboard = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("🙁 Onsuzda Qrupa əlavə eliyəmmiyəcəysən", url=f"http://t.me/LordSozBot?startgroup=new")
+        InlineKeyboardButton("❤️‍🔥 Qrupuna Əlavə et", url=f"http://t.me/LordSozBot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("Qrup 🐊", url="https://t.me/LorddChatt"),
-        InlineKeyboardButton("Sahib ⚜️", url="https://t.me/Rexxuxxnxx"),
+        InlineKeyboardButton("⚡️ Qrup ", url="https://t.me/LorddChatt"),
+        InlineKeyboardButton("🦅 Sahib ️", url="https://t.me/Rexxuxxnxx"),
     ]
 ])
 
@@ -29,15 +29,15 @@ START = """
 
 • Qrupda boş yetki verib botu işə sala bilərsiniz . 🌪️**
 
-➤ Məlumat üçün 👉 /komek bas. Komandalar Asand və Rahatdır. 
+➤ Məlumat üçün 👉 /help bas. Komandalar Asand və Rahatdır. 
 """
 
 HELP = """
 **✌️ Komandalar Menyusuja Xoşgəldin.📌**
-/basla - Oyunu Başlatmaq üçün..
-/pas - Cəmi 3 keçid Haqqınız Var.. 
+/oyun - Oyunu Başlatmaq üçün..
+/kec - Cəmi 3 keçid Haqqınız Var.. 
 /reyting - Oyuncular arasındaki Xal məlumatı..
-/dayandir - Oyundan çıxmaq üçün lazımlı olan komandasıdır.. 
+/dayan - Oyundan çıxmaq üçün lazımlı olan komandasıdır.. 
 """
 
 # Komutlar. 
@@ -45,12 +45,12 @@ HELP = """
 async def start(bot, message):
   await message.reply_photo("https://telegra.ph/file/a98c6bd5cdcd51efdd5b4.jpg",caption=START,reply_markup=keyboard)
 
-@Client.on_message(filters.command("komek"))
+@Client.on_message(filters.command("help"))
 async def help(bot, message):
   await message.reply_photo("https://telegra.ph/file/a98c6bd5cdcd51efdd5b4.jpg",caption=HELP) 
 
 # Oyunu başlat. 
-@Client.on_message(filters.command("basla")) 
+@Client.on_message(filters.command("oyun")) 
 async def kelimeoyun(c:Client, m:Message):
     global oyun
     aktif = False
@@ -61,7 +61,7 @@ async def kelimeoyun(c:Client, m:Message):
         aktif = False
 
     if aktif:
-        await m.reply("**❗ Oyun Qrupunuzda Artıq Davam Edir ✍🏻 \n Oyunu dayandırmaq üçün yazın /dayandir")
+        await m.reply("**❗ Oyun Qrupunuzda Artıq Davam Edir ✍🏻 \n Oyunu dayandırmaq üçün yazın /dayan")
     else:
         await m.reply(f"**{m.from_user.mention}** Tərəfindən! \nKəlimə Tapma Oyunu Başladı .\n\nBol Şanslar !", reply_markup=kanal)
         
