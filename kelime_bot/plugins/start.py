@@ -14,8 +14,8 @@ keyboard = InlineKeyboardMarkup([
         InlineKeyboardButton("🙁 Onsuzda Qrupa əlavə eliyəmmiyəcəysən", url=f"http://t.me/BanditosSozBot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("Qrup 🐊", url="https://t.me/BanditosQrup"),
-        InlineKeyboardButton("Sahib ⚜️", url="https://t.me/HusuSovetski"),
+        InlineKeyboardButton("Qrup 🐊", url="https://t.me/lorddchattt"),
+        InlineKeyboardButton("Sahib ⚜️", url="https://t.me/Rexxuxxnxx"),
     ]
 ])
 
@@ -23,11 +23,11 @@ keyboard = InlineKeyboardMarkup([
 START = """
 **• Salam ⚡
 
-• Mən Söz @BanditosQrup'u üçün hazırlanmış oyun Botuyam 🎮 
+• Mən Söz Oyun Botuyam
 
 • Əyləncəli vaxt Keçirmək üçün Mənimlə Oynaya bilərsən ✍🏻 
 
-• Bot @BanditosQrup'u üçün hazırlandığı üçün digər qruplara icazə qadağa qoyulub . 🌪️**
+• Qrupda boş yetki verib botu işə sala bilərsiniz . 🌪️**
 
 ➤ Məlumat üçün 👉 /komek bas. Komandalar Asand və Rahatdır. 
 """
@@ -43,11 +43,11 @@ HELP = """
 # Komutlar. 
 @Client.on_message(filters.command("start"))
 async def start(bot, message):
-  await message.reply_photo("https://i.ibb.co/K6QTywd/images-17.jpg",caption=START,reply_markup=keyboard)
+  await message.reply_photo("https://telegra.ph/file/a98c6bd5cdcd51efdd5b4.jpg",caption=START,reply_markup=keyboard)
 
 @Client.on_message(filters.command("komek"))
 async def help(bot, message):
-  await message.reply_photo("https://i.ibb.co/K6QTywd/images-17.jpg",caption=HELP) 
+  await message.reply_photo("https://telegra.ph/file/a98c6bd5cdcd51efdd5b4.jpg",caption=HELP) 
 
 # Oyunu başlat. 
 @Client.on_message(filters.command("basla")) 
