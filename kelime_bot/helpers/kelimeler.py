@@ -13,7 +13,7 @@ kelimeler = ["gözəl ","beyin","sual","sağlam ","buraxmaq","zaman","su","eləm
              'yastıq', 'qapı', 'qardaş', 'baxmaq', 'işləmək', 'içində', 'böyük', 'ok', 'başlamaq', 'yol', 'qalmaq', 'niyə', 'siz',
              'xəritə', 'siqaret', 'gözəl', 'çirkin', 'ev', 'bilməmək', 'tapmaq', 'söymək', 'göz', 'razılaşmaq', 'dünya',
              'baş', 'vəziyyət', 'otur', 'ümüd', 'sən', 'onlar', 'yəni', 'qabaq', 'görüş'  'ölkə', 'ailə', 'döyüş','görüş', 'tutmaq','çəkmək', 'unutmaq',
-             'bağlamaq', 'cırmaq','yatmaq', 'oyun', 'söz', 'əsmək', 'bağlı', 'burda', 'oğurlamaq', 'mahir'
+             'bağlamaq', 'cırmaq','yatmaq', 'oyun', 'söz', 'əsmək', 'bağlı', 'burda', 'oğurlamaq', 'mahir', 'qiymət', 'doğru', 'pomidor', 'əşya', 'evli','divan'
              ]
 
 
