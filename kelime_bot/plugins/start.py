@@ -14,7 +14,7 @@ keyboard = InlineKeyboardMarkup([
         InlineKeyboardButton("❤️‍🔥 Qrupuna Əlavə et", url=f"http://t.me/LordSozBot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("⚡️ Qrup ", url="https://t.me/LorddChatt"),
+        InlineKeyboardButton("⚡️ Qrup ", url="https://t.me/fantasticazcity"),
         InlineKeyboardButton("🦅 Sahib ️", url="https://t.me/Rexxuxxnxx"),
     ]
 ])
@@ -81,7 +81,7 @@ async def kelimeoyun(c:Client, m:Message):
         text = f"""
 🎯 Raund : {oyun[m.chat.id]['round']}/60 
 📝 Söz :   <code>{kelime_list}</code>
-💰 Qazanacağınız Xal: 50
+💰 Qazanacağınız Xal: 1
 🔎 İpucu: 1. {oyun[m.chat.id]["kelime"][0]}
 ✍🏻 Uzunluq : {int(len(kelime_list)/2)} 
 
