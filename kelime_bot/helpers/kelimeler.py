@@ -13,7 +13,7 @@ kelimeler = ["gözəl ","beyin","sual","sağlam ","buraxmaq","zaman","su","eləm
              'yastıq', 'qapı', 'qardaş', 'baxmaq', 'işləmək', 'içində', 'böyük', 'ok', 'başlamaq', 'yol', 'qalmaq', 'niyə', 'siz',
              'xəritə', 'siqaret', 'gözəl', 'çirkin', 'ev', 'bilməmək', 'tapmaq', 'söymək', 'göz', 'razılaşmaq', 'dünya',
              'baş', 'vəziyyət', 'otur', 'ümüd', 'sən', 'onlar', 'yəni', 'qabaq', 'görüş'  'ölkə', 'ailə', 'döyüş','görüş', 'tutmaq','çəkmək', 'unutmaq',
-             'bağlamaq', 'cırmaq','yatmaq', 'oyun', 'söz', 'əsmək', 'bağlı', 'burda', 'oğurlamaq', 'mahir', 'qiymət', 'doğru', 'pomidor', 'əşya', 'evli','divan', 'girmək', 'imtahan', 'qələm', 'dəftər', 'kitab', 'qaçmaq', 'pubg', 'inanmaq', 'uduzmaq', 'udmaq', 'sevmək', 'əymək', 'qucaqlamaq','yemək', 'şirin', 'qoyun', 'eynək', 'video','etmək', 'dağıdmaq', 'qarabağ', 'qaçmaq', 'siyahı', 'qəpik', 'təəccüb'
+             'bağlamaq', 'cırmaq','yatmaq', 'oyun', 'söz', 'əsmək', 'bağlı', 'burda', 'oğurlamaq', 'mahir', 'qiymət', 'doğru', 'pomidor', 'əşya', 'evli','divan', 'girmək', 'imtahan', 'qələm', 'dəftər', 'kitab', 'qaçmaq', 'pubg', 'inanmaq', 'uduzmaq', 'udmaq', 'sevmək', 'əymək', 'qucaqlamaq','yemək', 'şirin', 'qoyun', 'eynək', 'video','etmək', 'dağıdmaq', 'qarabağ', 'qaçmaq', 'siyahı', 'qəpik', 'təəccüb', 'ehtiyac', 'ehtiyat', 'mahnı', 'ibtidai'
              ]
 
 
